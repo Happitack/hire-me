@@ -32,8 +32,7 @@ The Famly Nursery Application is designed to manage the attendance and activitie
 
 ## Included Packages
 - **[Axios:](https://www.npmjs.com/package/axios)** For making HTTP requests to the Famly API
-- **[React Router DOM:](https://www.npmjs.com/package/react-router-dom)** For handling navigation and routing within the app
-- **[React Window:](https://www.npmjs.com/package/react-window)** For efficiently rendering large lists by virtualizing the rows.
+- **[React DOM:](https://www.npmjs.com/package/react-dom)** For handling navigation and routing within the app
 
 ## Design Decisions
 **Axios for API Integration:**
@@ -43,7 +42,3 @@ The decision to use Axios was made due to its simple and easy-to-use API for han
 **Environment Configuration:**
 
 By utilizing a .env file, environmental variables can be managed outside the codebase, making it easy to switch between environments and ensuring that sensitive information such as access tokens are stored locally.
-
-**List Virtulization with React Window:**
-
-Given the potential size of the children data returned by the API, React Window was chosen for list virtualization. It helps render only the visible rows in the DOM, improving performance when dealing with large datasets.
