@@ -1,6 +1,8 @@
 # Famly Nursery Application
 
 ## Description
+*This application was created for a job interview, with a 6 hour work limit.*
+
 The Famly Nursery Application is designed to manage the attendance and activities of children in a nursery. It allows staff to easily check children in and out, view their attendance status, and interact with the Famly API for up-to-date information
 
 ## Setup / Installation
